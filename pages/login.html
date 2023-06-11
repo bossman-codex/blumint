@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/register.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <title>BLUMINT | LOGIN</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container main">
+            <div class="row">
+                <div class="col-md-6 right">
+                     <div class="input-box" id="form">
+                        <div class="logo">
+                            <img src="../images/logo.png" alt="">
+                            <h2>bluminthost</h2>
+                        </div>
+
+                        <header>
+                            <h2>Sign in</h2>
+                            <p>Get the perfect name for your website today and start your journey online!</p>
+                        </header>
+
+                        <div class="input-field">
+                            <input type="text" class="input" id="email" placeholder="Your name" required>
+                            <label for="email">Email</label>
+                        </div> 
+                        <div class="input-field">
+                            <input type="password" class="input" id="password" placeholder="Password" required>
+                            <label for="password">Create Password</label>
+                        </div>
+
+                        <div class="forget_pass">
+                            <p>Forgot Password?</p>
+                            <a href="">Click Here</a>
+                        </div>
+
+                        <div class="login_submit">
+                            <label>
+                              <input type="checkbox">
+                              <span>Remember me</span>
+                            </label>
+                            <input type="submit" class="submit" value="Login">
+                        </div>
+                          
+
+                     </div>
+                </div>
+
+                <div class="col-md-6 side-image">  
+                    <img src="../images/login_bg.png" alt="">
+                    <div class="text">
+                        <div class="signin">
+                            <span>Don't have an account? <a href="register.html">Sign Up</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="./js/captcha.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-analytics.js"></script>
+    <script src="./js/data.js"></script>
+</body>
+</html>

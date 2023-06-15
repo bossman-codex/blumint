@@ -100,7 +100,7 @@ input:checked + .slider:before {
 
 .hero {
   background-color: black;
-  background-image: url("/sideimage.png");
+  background-image: url("./images/sideimage.png");
   background-position: right;
   background-repeat: no-repeat;
   background-size: contain;

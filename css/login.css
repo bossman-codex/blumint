@@ -1,0 +1,45 @@
+.input-box header{
+    margin-top: 1%;
+}
+
+
+.forget_pass{
+    display: flex;
+    margin-top: -25px;
+    padding-left: 10px;
+    color: #FFFFFF;
+    font-size: 15px;
+}
+
+.forget_pass p{
+    margin-right: 5px;
+}
+
+.forget_pass a{
+    text-decoration: none;
+    color: #2C66FF;
+}
+
+.login_submit {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+  
+.login_submit label {
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    padding-left: 10px;
+}
+  
+.login_submit label span {
+    margin-left: 5px;
+}
+  
+.login_submit input[type="submit"] {
+    margin-left: 10px;
+    padding: 10px 100px;
+}
+  
